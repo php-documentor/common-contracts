@@ -1,0 +1,28 @@
+{
+    "name": "php-documentor/common-contracts",
+    "type": "library",
+    "description": "Common use interfaces",
+    "license": "MIT",
+    "keywords": ["abstractions", "contracts", "interfaces", "standards", "common"],
+    "homepage": "https://github.com/php-documentor",
+    "support": {
+        "issues": "https://github.com/php-documentor/issues",
+        "source": "https://github.com/php-documentor/common-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpDocumentor\\Contracts\\Common\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
